@@ -11,7 +11,8 @@
 + [Running locally](#run_locally)
     + [Configuration](#configuration)
     + [Execution Options](#execution_options)
-        + [TDA Playground Main](#tda_playground_main)
+        + [TDA Playground play.py](#tda_playground_main)
+        + [TDA Playground Jupyter](#jupyter)
 + [Todo](#todo)
 + [License](#license)
 
@@ -100,7 +101,7 @@ $ which python
 
 ```
 
-#### TDA Playground Main <a name = "tda_playground_main"></a>
+#### TDA Playground play.py <a name = "tda_playground_main"></a>
 
 Now, in order to run the code you can either call the [main.py](tda_playground/main.py) directly, or invoke the `tda_playground_main`
 console script.
@@ -108,6 +109,21 @@ console script.
 ```ShellSession
 $ python tda_playground/play.py --help
 ```
+
+For example:
+```ShellSession
+$ python tda_playground/play.py -c confs/default.yml -l logs/default.log
+```
+
+#### TDA Playground Jupyter <a name = "jupyter"></a>
+
+Run:
+
+```ShellSession
+$ jupyter notebook
+```
+
+And open `playground.ipynb`
 
 ## TODO <a name = "todo"></a>
 
