@@ -1,0 +1,28 @@
+tag: first
+tda:
+  - config:
+      results_folder: res/rips
+      cutoff_min: 1.75 # 0.2
+      cutoff_step: 4
+      cutoff_lim: 6.001 # 7.1
+      show_fig: True
+      save_fig: False
+      create_gif: False
+      points:
+        - x: 0.0
+          y: 0.0
+        - x: 0.0
+          y: 1.0
+        - x: 1.0
+          y: 0.0
+        - x: 1.0
+          y: 1.0
+        - x: 4.0
+          y: 4.0
+        - x: 4.0
+          y: 5.414213562373095
+        - x: 5.414213562373095
+          y: 4.0
+        - x: 5.414213562373095
+          y: 5.414213562373095
+    type: rips

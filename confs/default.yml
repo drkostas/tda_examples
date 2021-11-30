@@ -1,0 +1,28 @@
+tag: first
+tda:
+  - config:
+      results_folder: res/rips_full_with_polygons_dgm2
+      cutoff_min: 0.45
+      cutoff_step: 0.1
+      cutoff_lim: 7.1
+      show_fig: False
+      save_fig: True
+      create_gif: False
+      points:
+        - x: 0.0
+          y: 0.0
+        - x: 0.0
+          y: 1.0
+        - x: 1.0
+          y: 0.0
+        - x: 1.0
+          y: 1.0
+        - x: 4.0
+          y: 4.0
+        - x: 4.0
+          y: 5.414213562373095
+        - x: 5.414213562373095
+          y: 4.0
+        - x: 5.414213562373095
+          y: 5.414213562373095
+    type: rips

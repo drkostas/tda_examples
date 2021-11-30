@@ -1,0 +1,13 @@
+imageio
+jupyter
+matplotlib
+mogutda
+networkx
+numpy
+PyYAML
+scikit-learn
+scikit-tda
+scipy
+setuptools
+termcolor
+typer

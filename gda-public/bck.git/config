@@ -1,0 +1,10 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "github"]
+	url = https://github.com/drkostas/tda_examples.git
+	fetch = +refs/heads/*:refs/remotes/github/*
