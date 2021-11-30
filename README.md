@@ -1,4 +1,4 @@
-# TDA Playground<img src='https://github.com/drkostas/tda_playground/blob/master/img/snek.png' align='right' width='180' height='104'>
+# TDA Playground<img src='https://github.com/drkostas/tda_examples/blob/master/img/snek.png' align='right' width='180' height='104'>
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/drkostas/tda_playground/master/LICENSE)
 
